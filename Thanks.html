@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Click to Chat</title>
+    <script language="javascript">
+        //INSERT INLINE SCRIPTS HERE
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="close_tag" class="close_tag">
+            <a href="javascript:window.close();" onclick="self.close()" style="color:grey"> Close</a>
+        </div>
+        <div id="header" class="header">
+            <img src='images/chat_logo.png'>
+        </div>
+        <div id="welcome_message" class="welcome_message">
+            <h2 style="color:red">Thanks</h2>
+            <p>Thank you for using Lilly Click to Chat services. We invite you to share your experience with us today.
+            </p>
+        <form id="feedback_form">
+            <div id="feedback_status" class="feedback_status">
+                <center><table id="tbl_feedback_status" class="tbl_feedback_status">
+                    <tr>
+                        <td><h4> Did you find this Click-to-Chat service an effective way to us? </h4></td>
+                        <td>
+                            <label for="HCP_Confirmation_yes" >Yes  
+                            <input type="radio" id="HCP_Confirmation_radio_yes" name="HCP_Confirmation_radio" onchange="show_hide_HCP_confirmation();"></label>
+                            &nbsp;
+                            <label for="HCP_Confirmation_no" >No  
+                            <input type="radio" id="HCP_Confirmation_radio_no" name="HCP_Confirmation_radio" onclick="show_hide_HCP_confirmation();"></label>
+                        </td>
+                    </tr>        
+                </table></center>
+            </div>
+        </form>
+
+        <div id="footer" class="footer">
+            The contact information will be used to provide information and answers to your request. As part of the collection of information, a copy of the chat session transcript will also be retained for quality and training purposes. For more information, please see our <a href="https://www.lillyhub.com/legal/lillyusa/english/privacy.html" style="color:red">Privacy Statement.</a>
+        </div>
+    </div>
+    <script src=" js/jquery-3.2.1.min.js " type="text/javascript "></script>
+    <script src="js/bootstrap.js " type="text/javascript "></script>
+    <script src="js/custom.js " type="text/javascript "></script>
+</body>
+
+</html>

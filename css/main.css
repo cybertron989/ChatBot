@@ -1,0 +1,121 @@
+#close_tag {
+    text-align: right;
+}
+
+#header {
+    background-image: url(../images/check_back.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0 20px 20pt;
+}
+
+#HCP_Confirmation, #feedback_status {
+    background-color: #EBEBEB;
+    padding: 12px 0 12px 20pt;
+}
+
+#welcome_message {
+    width: 90%;
+    padding: 0 10px 0 40px;
+}
+
+#buttons {
+    display: inline;
+}
+
+
+
+#chat_form{
+    padding: 50px 25px 25px 25px;
+    
+}
+
+#always_visible{
+    padding: 25px 25px 25px 25px;
+    
+}
+
+#HCP_visible_tbl{
+    width: 80%;
+}
+#tbl_HCP_confirmtion{
+    width:80%;
+}
+td, th{
+    /*border: 1px solid black;*/
+
+}
+#HCP_visible_tbl, th{
+    padding: 5px;
+}
+#slct_HCP_type, #slct_product_type{
+    width: 50%;
+}
+
+#chat_button {
+    background-color: #EBEBEB;
+    
+    padding: 5pt 0 0 0;
+    height: 40pt;
+}
+#footer {
+    font-size: 8pt;
+    color: #C4c4c4;
+}
+
+.txt_FirstName, .txt_LastName{
+    width: 45%;
+}
+
+.txt_Email{
+    width: 90.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Button CSS*/
+
+a.button {
+    
+    
+    border: solid 1px #d0d0d0;
+    border-bottom: solid 3px #b2b1b1;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #f5f5f5;
+    color: #555;
+    display: inline-block;
+    font: bold 12px Arial, Helvetica, Clean, sans-serif;
+    margin: 0 25px 25px 0;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fafafa; }
+
+a.button.dsgnmoo {
+    background: #ce2424;
+    border: solid 1px #be2424;
+    border-bottom: solid 3px #bd2524;
+    box-shadow: inset 0 0 0 1px #e67e7b;
+    color: #fff;
+    text-shadow: 0 1px 0 #bd2524; }
+    
+a.button.dsgnmoo:hover {
+    background: #ce2424;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ce2424), to(#f97779));
+    background: -moz-linear-gradient(#ce2424, #f97779);
+    background: linear-gradient(#ce2424, #f97779);
+    border: solid 1px #be2424;
+    border-bottom: solid 3px #bd2524;
+    box-shadow: inset 0 0 0 1px #e67e7b; }
+    
+a.button.dsgnmoo:active {
+    background: #ce2424;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ce2424), to(#f97779));
+    background: -moz-linear-gradient(#ce2424, #f97779);
+    background: linear-gradient(#ce2424, #f97779);
+    border: solid 1px #be2424;
+    box-shadow: inset 0 10px 15px 0 #bd2524; }
